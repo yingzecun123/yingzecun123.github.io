@@ -2,17 +2,18 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>嗨，你好 | Gridea</title>
+<title>PPT如何制作滚动数字效果 | Gridea</title>
 <link rel="shortcut icon" href="https://yingzecun123.github.io/favicon.ico?v=1583934034405">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://yingzecun123.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="嗨，你好 | Gridea - Atom Feed" href="https://yingzecun123.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="PPT如何制作滚动数字效果 | Gridea - Atom Feed" href="https://yingzecun123.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="嗨，朋友，你好，这里是PowerPoint小学生的个人小客栈，我是一个ppt圈子的小学生。
-从一开始误打误撞接触ppt，到现在已经有3、4年的时间了，ppt在我的眼中也从单一的软件逐渐转变成我的一个个人爱好，接下来我也会将之前很多收藏的教程..." />
+    <meta name="description" content="哈喽，大家晚上好，😀这应该算是我编辑的第一篇较长的PPT制作教程，其实也不能称之为教程，我更加愿意将其称之为笔记的分享，那今天带来的第一篇分享就是关于滚动数字效果的步骤，首先我们来看一下最终的效果
+
+这种滚动效果可以应用在开幕，或者介绍具..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -75,23 +76,42 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              嗨，你好
+              PPT如何制作滚动数字效果
             </h2>
             <div class="post-info">
               <span>
                 2020-03-11
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>嗨，朋友，你好，这里是PowerPoint小学生的个人小客栈，我是一个ppt圈子的小学生。<br>
-从一开始误打误撞接触ppt，到现在已经有3、4年的时间了，ppt在我的眼中也从单一的软件逐渐转变成我的一个个人爱好，接下来我也会将之前很多收藏的教程逐渐过渡到这里，希望和大家一起分享<br>
-<img src="https://yingzecun123.github.io/post-images/1583912446395.jpg" alt="" loading="lazy"></p>
+                <p>哈喽，大家晚上好，😀这应该算是我编辑的第一篇较长的PPT制作教程，其实也不能称之为教程，我更加愿意将其称之为笔记的分享，那今天带来的第一篇分享就是关于滚动数字效果的步骤，首先我们来看一下最终的效果<br>
+<img src="https://yingzecun123.github.io/post-images/1583931777784.gif" alt="" loading="lazy"></p>
+<p>这种滚动效果可以应用在开幕，或者介绍具体的产品介绍的时候，那么如何制作呢，我们将对该页面进行分解主要有3部分内容：色块，字符方向，动画</p>
+<p>一、色块的叠加<br>
+很多动画，虽然看着很复杂，但是我们将它进行拆分之后发现很多都是图层间的组合作用，同样的，再进行操作之前，我们需要先对这个动画进行拆分，<br>
+<img src="https://yingzecun123.github.io/post-images/1583932575757.png" alt="" loading="lazy"><br>
+从图片中我们可以看到，这页ppt的主要组成部分有两大类：1.两个黑色的矩形；2.文本框，我们将背景色变为白色之后可以看的更加清楚<br>
+<img src="https://yingzecun123.github.io/post-images/1583932820304.png" alt="" loading="lazy"></p>
+<p>二、字符方向<br>
+在最终的效果图中我们可以看到四个数字是分别从不同的方向滚动出现的，这也就意味着我们不能将四个字符都摆放在同一位置上，同样的，我们需要将我们的字符设置为纵向</p>
+<p>三、动画方向<br>
+其实这个动画效果所应用的动画是最为基础的飞入动画，我们可以但是我们可以看到的是，不同位置的字符，所选择的动画方向是不同的，比如第一列字符位置是偏下的，所以采用的动画方向是“自顶部”，第二列字符位置是偏上的，所以我们选择的方向是&quot;自底部”<br>
+<img src="https://yingzecun123.github.io/post-images/1583933574036.gif" alt="" loading="lazy"></p>
+<!-- more -->写在最后的几句话
+<!-- more -->
+<p>所以我们通过分解之后可以总结出这类效果的制作步骤：<br>
+1.在画布的上下分别添加两个与背景色相同的矩形，并设置为无轮廓<br>
+2.输入纵向的数字，并错落有序排列<br>
+3.为字符添加飞入动画，并选择不同的方向<br>
+第一次写长文，有点啰嗦，还请见谅<br>
+庙堂既高，箫鼓老也， 烛泪堆红，几人歌吹？<br>
+<img src="https://yingzecun123.github.io/post-images/1583933915087.jpg" alt="" loading="lazy"></p>
 
               </div>
               <div class="toc-container">
@@ -104,9 +124,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://yingzecun123.github.io/post/hello-gridea/">
+            <a href="https://yingzecun123.github.io/post/hai-ni-hao/">
               <h3 class="post-title">
-                Hello Gridea
+                嗨，你好
               </h3>
             </a>
           </div>
